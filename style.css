@@ -3,3 +3,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#canvas {
+    background-image: url('./images/squid-games.jpg');
+    background-size: cover;
+    background-position: center center;
+} 

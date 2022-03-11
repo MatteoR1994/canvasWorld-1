@@ -18,6 +18,7 @@ setInterval(() => {
 
       if (sprite.isDead) {
         sprites = World.build(Levels.getLevel(6));
+        document.getElementById('canvas').style.backgroundImage = "url('./images/Squid-Game-7.jpg')"
       }
 
     CollisionDetector.checkCollisions(sprite, sprites);
